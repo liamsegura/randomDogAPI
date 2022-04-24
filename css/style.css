@@ -14,12 +14,12 @@ html{
   font-size: 1rem;
   font-family: 'system-ui', 'Arial Narrow', Arial, sans-serif; 
   background: linear-gradient(rgb(24, 24, 24), rgb(36, 36, 36)); 
+  height: 100%;
 }
 body{
-  background: linear-gradient(rgb(24, 24, 24), rgb(36, 36, 36));
+  
   text-align: center;
   color: white;
-  height: 100%;
 }
 header{
   margin-bottom: 20px;
@@ -52,7 +52,6 @@ img{
 span{
   font-weight: bold;
   font-size: 2rem;
-  text-decoration: underline;
 }
 #dog-name{
   text-decoration: none;
@@ -65,11 +64,17 @@ li{
 /*******************************************/
 
 @media (max-width:680px){
-
+ html{
+   height: auto;
+ } 
+ body{
+    background: linear-gradient(rgb(24, 24, 24), rgb(36, 36, 36));
+  }
   .section-container{
     display: flex;
     flex-direction: column;
     padding: 0 10vw;
+    height: 100%;
   }
   .column + .column > .item > ul{
     padding-bottom: 20px;
