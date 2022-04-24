@@ -17,7 +17,7 @@ html{
   height: 100%;
 }
 body{
-  
+  background: linear-gradient(rgb(24, 24, 24), rgb(36, 36, 36)); 
   text-align: center;
   color: white;
 }
@@ -69,7 +69,7 @@ li{
 /* ADDITIONAL STYLES
 /*******************************************/
 
-@media (max-width:680px){
+/* @media (max-width:680px){
  html{
    height: auto;
  } 
@@ -85,4 +85,4 @@ li{
   .column + .column > .item > ul{
     padding-bottom: 20px;
   }
-}
+} */
