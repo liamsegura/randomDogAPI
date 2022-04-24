@@ -22,24 +22,30 @@ body{
   color: white;
 }
 header{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 select{
   font-size: 4rem!important;
-  width: 60%;
+  width: 30%;
 }
 .section-container{
   display: flex;
   flex-direction: row;
   padding: 0 10vw;
 }
+header + .section-container{
+  flex-direction: column;
+}
 .column{
+  display: flex;
   flex: 1;
   padding: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .item{
-  padding-bottom: 5px;
+ padding-bottom: 20px;
 }
 img{
   display: block;

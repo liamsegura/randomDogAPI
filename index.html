@@ -14,22 +14,23 @@
 	<body>
 		<header>
 			<h1>Doggo Viewer</h1>
-			<span id="dog-name">Default Doggo Dougie</span>
 		</header>
 		<section class="section-container">
+			<section class="item">
+				<span>Choose your breed</span>
+			</section>
+			<section class="item">
+				<select class="breeds">
+					<option value="starter" selected>Choose Breed</option>
+				</select>
+			</section>
+		</section>
+		<section class="section-container">
 			<section class="column">
-				<section class="item">
-					<span>Choose your breed</span>
-				</section>
-				<section class="item">
-					<select class="breeds">
-						<option value="starter" selected>Choose Breed</option>
-					</select>
-				</section>
+				
 				<section class="item">
 					<section class="img-container">
 						<section class="container"> 
-							<div>🐶🐶🐶🐶🐶🐶🐶</div>
 							<img 
 							src="http://placecorgi.com/500/500"
 							class="dog-img"
@@ -43,6 +44,7 @@
 				<section class="item">
 					<span>Doggo Characteristics</span>
 					<ul>
+						<li id="dog-name">Name: Dougie</li>
 						<li id="MF">S: Male</li>
 						<li id="dog-age">Age: 2</li>
 						<li id="dog-likes">Likes: Dog treats and walkies</li>
